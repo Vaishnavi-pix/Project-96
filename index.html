@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    </head>
+    <body style="background: linear-gradient(90deg,lightblue, pink);">
+<center>
+    <h1 class="header">
+        Lets Chat <sup>
+            <img src="Lets Chat icon.png" style="width:100px; height:100px;">
+        </sup>
+    </h1>
+    <img src="LetsChat icon.png" class="logo" style="width:600px; height:500px; float: left;">
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+        
+        <h3 style="font-size: 40px;">See what's happening in the world right now</h5>
+        <h4 style="font-size: 30px;">Join Lets Chat today</h4>
+        <div class="form-group">
+            <label style="font-size: 20px;">Username</label>
+            <input type="text" id="user_name" class="form-control" placeholder="Username">
+        </div>
+        <button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+        <br><br>
+</div>
+</center>
+    </body>
+    <script src="kwitter.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+</html>
